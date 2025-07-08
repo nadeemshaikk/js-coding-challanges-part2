@@ -840,7 +840,7 @@ These operators are fundamental to writing modern React code due to their role i
 
     ```jsx
     const myProps = { name: 'Bob', age: 25, city: 'Paris' }
-    ;<WelcomeComponent {...myProps} />
+    <WelcomeComponent {...myProps} />
     // This is equivalent to:
     // <WelcomeComponent name={myProps.name} age={myProps.age} city={myProps.city} />
     ```

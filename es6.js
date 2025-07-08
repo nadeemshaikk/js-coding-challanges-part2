@@ -29,4 +29,19 @@ const constExampleFn = () => {
 	numbers.unshift(0)
 	console.log(numbers)
 }
-constExampleFn()
+// constExampleFn()
+
+const createUser = (name, age) => ({ name: name, age: age })
+
+const createUserFn = (name, age) => {
+	// console.log(arguments)
+	return { name: name, age: age }
+}
+
+function createUserFn2(name, age) {
+	console.log(arguments)
+	return { name: name, age: age }
+}
+
+console.log(createUserFn('anil', 20))
+console.log(createUserFn2('anil', 20))
